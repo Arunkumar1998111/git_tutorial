@@ -2,7 +2,7 @@ import random
 
 def roll_dice():
     """Simulates rolling a six-sided die."""
-    return random.randint(1, 6)
+    return random.randint(1, 9)
 
 def main():
     print("Welcome to the Dice Rolling Game!")
