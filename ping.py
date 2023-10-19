@@ -1,16 +1,16 @@
 import turtle
 import random
  
-w = 500
+w = 250
 h = 500
-food_size = 10
+food_size = 5
 delay = 100
  
 offsets = {
     "up": (0, 20),
     "down": (0, -20),
-    "left": (-20, 0),
-    "right": (20, 0)
+    "left": (-10, 0),
+    "right": (10, 0)
 }
  
 def reset():
